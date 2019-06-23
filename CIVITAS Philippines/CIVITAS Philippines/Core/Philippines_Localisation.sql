@@ -20,7 +20,7 @@ VALUES
 
 	("en_US",	"LOC_TRAIT_CIVILIZATION_CVS_PHILIPPINES_UA_NAME",	"Pearl of the Orient"	),
 	("en_US",	"LOC_TRAIT_CIVILIZATION_CVS_PHILIPPINES_UA_DESCRIPTION",
-	"Constructing a specialty district builds improvements on adjacent resources, and adjacent improvements provide double their yields on luxury resources. +25% [ICON_TOURISM] Tourism towards civilizations with whom you have a [ICON_TRADEROUTE] Trade Route. "	),
+	"Constructing a specialty district builds improvements on adjacent resources, and adjacent improvements provide double their yields on luxury resources. +25% [ICON_TOURISM] Tourism towards civilizations with whom you have a [ICON_TRADEROUTE] Trade Route."	),
 
 -----------------------------------------------
 -- UU

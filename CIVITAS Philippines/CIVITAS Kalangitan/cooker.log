@@ -5,7 +5,7 @@ XLP cook starting...
 Opened output file: D:\Documents\my games\Sid Meier's Civilization VI\Mods\Mods\CIVITAS Kalangitan\Platforms\MacOS\BLPs/landmarks/tilebases.blp    For XLP: '\\WDMYCLOUD\Sam\Projects\Modding\Civ VI\IdeaProjects\GitHub\CIVITAS-Philippines\CIVITAS Philippines\CIVITAS Kalangitan\XLPs\Tilebases.xlp'
 Could not load digest key: ''.  Using mod key to sign BLP.
 Starting 'landmarks/tilebases'
-Load finished for: 'landmarks/tilebases' in 0.416 seconds
+Load finished for: 'landmarks/tilebases' in 0.183 seconds
 Asset "IMP_CPG_Kalangitan_UI" has AttachmentPoint "Jungle_Plant_01_Bld02" on a bone with non-uniform scaling (0.331, 0.331, 0.229) (1/31)
 Asset "IMP_CPG_Kalangitan_UI" has AttachmentPoint "VIL_Tribal_Thatch_Torch_A003" on a bone with non-uniform scaling (0.717, 0.717, 0.294) (2/36)
 Asset "IMP_CPG_Kalangitan_UI" has AttachmentPoint "VIL_Tribal_Thatch_Torch_A002" on a bone with non-uniform scaling (0.717, 0.717, 0.294) (3/37)
@@ -21,8 +21,8 @@ Asset "IMP_CPG_Kalangitan_UI_03" has AttachmentPoint "VIL_Tribal_Thatch_Torch_A0
 Asset "IMP_CPG_Kalangitan_UI_03" has AttachmentPoint "VIL_Tribal_Thatch_Torch_A010" on a bone with non-uniform scaling (0.717, 0.717, 0.294) (13/115)
 Asset "IMP_CPG_Kalangitan_UI_03" has AttachmentPoint "VIL_Tribal_Thatch_Torch_A011" on a bone with non-uniform scaling (0.717, 0.717, 0.294) (14/122)
 Asset "IMP_CPG_Kalangitan_UI_03" has AttachmentPoint "Jungle_Plant_01_Bld019" on a bone with non-uniform scaling (0.331, 0.331, 0.229) (15/123)
-Cook finished for: 'landmarks/tilebases' in 0.003 seconds
-Disk write finished for: 'landmarks/tilebases' in 0.084 seconds
-Cleanup finished for: 'landmarks/tilebases' in 0.003 seconds
+Cook finished for: 'landmarks/tilebases' in 0.004 seconds
+Disk write finished for: 'landmarks/tilebases' in 0.105 seconds
+Cleanup finished for: 'landmarks/tilebases' in 0.004 seconds
 XLP cook completed with success.
-Cook completed in 0.537 seconds
+Cook completed in 0.335 seconds

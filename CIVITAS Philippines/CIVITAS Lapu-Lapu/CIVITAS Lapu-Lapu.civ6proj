@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>CIVITAS Lapu Lapu</Name>
+    <Guid>6ff33b7d-c280-47df-8c84-684b1eab9fed</Guid>
+    <ProjectGuid>709a9974-7884-4a26-9aa7-f2d6be3cc790</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds Lapu Lapu as an alternative leader for Philippines in Civilization VI</Teaser>
+    <Description>Adds Lapu Lapu as an alternative leader for Philippines in Civilization VI</Description>
+    <Authors>ChimpanG</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>CIVITAS Philippines - Lapu Lapu</AssemblyName>
+    <RootNamespace>CIVITAS Philippines - Lapu Lapu</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Mod" title="CIVITAS [ICON_Government] Philippines" id="46a14591-6338-4567-ad3e-8c18f135ca09" />
+</Associations>]]></AssociationData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Lapu_Setup_DB"><Properties><LoadOrder>105</LoadOrder></Properties><File>Core/Leader/Config.xml</File></UpdateDatabase><UpdateText id="Lapu_Setup_Text"><File>Core/Leader/Localisation.sql</File></UpdateText><UpdateIcons id="Lapu_Setup_Icons"><File>Core/Leader/Icons.sql</File></UpdateIcons><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Lapu_DB"><Properties><LoadOrder>106</LoadOrder></Properties><File>Core/Leader/Leader.sql</File><File>Core/Leader/UA.sql</File><File>Core/Leader/UU.sql</File><File>Core/Leader/Agenda.sql</File><File>Core/Leader/Strategy.sql</File></UpdateDatabase><UpdateText id="Lapu_Text"><File>Core/Leader/Localisation.sql</File></UpdateText><UpdateIcons id="Lapu_Icons"><File>Core/Leader/Icons.sql</File></UpdateIcons><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Lapu_ModSupport_DB"><Properties><LoadOrder>107</LoadOrder></Properties></UpdateDatabase><UpdateText id="Lapu_ModSupport_Text" /></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Core\" />
+    <Folder Include="Core\Leader\" />
+    <Folder Include="Core\XP1" />
+    <Folder Include="Materials\" />
+    <Folder Include="XLPs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\LeaderFallbacks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Bagani_AmuletA.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Bagani_ArmorA.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Bagani_BootsA.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Bagani_BracerA.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Bagani_SwordA.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader\Lapu_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader\Lapu_Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader\Lapu_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader\Lapu_Leader.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader\Lapu_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader\Lapu_Strategy.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader\Lapu_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader\Lapu_UU.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\XP1\Kudarat_XP1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Bagani_Armor.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Units.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

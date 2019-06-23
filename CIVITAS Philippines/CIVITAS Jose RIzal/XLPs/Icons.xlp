@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="CVS_JOSE_RIZAL_1"/>
+			<m_ObjectName text="CVS_JOSE_RIZAL_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_JOSE_RIZAL_256"/>
+			<m_ObjectName text="CVS_JOSE_RIZAL_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_JOSE_RIZAL_32"/>
+			<m_ObjectName text="CVS_JOSE_RIZAL_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_JOSE_RIZAL_4"/>
+			<m_ObjectName text="CVS_JOSE_RIZAL_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_JOSE_RIZAL_45"/>
+			<m_ObjectName text="CVS_JOSE_RIZAL_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_JOSE_RIZAL_48"/>
+			<m_ObjectName text="CVS_JOSE_RIZAL_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_JOSE_RIZAL_50"/>
+			<m_ObjectName text="CVS_JOSE_RIZAL_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_JOSE_RIZAL_55"/>
+			<m_ObjectName text="CVS_JOSE_RIZAL_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_JOSE_RIZAL_64"/>
+			<m_ObjectName text="CVS_JOSE_RIZAL_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_JOSE_RIZAL_80"/>
+			<m_ObjectName text="CVS_JOSE_RIZAL_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_JOSE_RIZAL_BACKGROUND"/>
+			<m_ObjectName text="LEADER_CVS_JOSE_RIZAL_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_JOSE_RIZAL_NEUTRAL"/>
+			<m_ObjectName text="LEADER_CVS_JOSE_RIZAL_NEUTRAL"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

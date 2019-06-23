@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>CIVITAS [ICON_GREATPERSON] Corazon Aquino</Name>
+    <Guid>841a5377-42a7-412e-bf15-d382e72bda4a</Guid>
+    <ProjectGuid>d4eaf31e-27fa-46a3-ae94-54bc4ed7d790</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds Corazon Aquino as a leader for CIVITAS Philippines</Teaser>
+    <Description>Adds Corazon Aquino as a leader for CIVITAS [ICON_GOVERNEMENT] Philippines</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <ModProperties>
+      <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    </ModProperties>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Cory_GameDefines.sql</File></UpdateDatabase><UpdateText id="Text"><File>Core/CoryText.xml</File></UpdateText><UpdateIcons id="Icons"><File>Core/CoryIcons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Cory_Config.sql</File></UpdateDatabase><UpdateText id="ConfigText"><File>Core/CoryText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Core/CoryIcons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>SeelingCat - Shajar Al Durr</AssemblyName>
+    <RootNamespace>SeelingCat - Shajar Al Durr</RootNamespace>
+    <Authors>SeelingCat</Authors>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Mod" title="CIVITAS [ICON_Government] Philippines" id="46a14591-6338-4567-ad3e-8c18f135ca09" />
+</Associations>]]></AssociationData>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Cory_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Cory_GameDefines.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\CoryText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIVITAS_CORY_1.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIVITAS_CORY_1.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIVITAS_CORY_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIVITAS_CORY_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIVITAS_CORY_4.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIVITAS_CORY_4.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_CIVITAS_CORY.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_CIVITAS_CORY.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_CIVITAS_PHILIPPINES_CORY_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_CIVITAS_PHILIPPINES_CORY_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_CIVITAS_PHILIPPINES_CORY_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_CIVITAS_PHILIPPINES_CORY_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CIVITAS_CORY_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CIVITAS_CORY_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CIVITAS_CORY_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CIVITAS_CORY_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CIVITAS_CORY_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CIVITAS_CORY_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CIVITAS_CORY_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CIVITAS_CORY_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CIVITAS_CORY_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CIVITAS_CORY_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CIVITAS_CORY_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CIVITAS_CORY_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CIVITAS_CORY_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CIVITAS_CORY_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_CIVITAS_CORY_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_CIVITAS_CORY_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UIIcons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Core" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

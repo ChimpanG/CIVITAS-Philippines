@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# ModBuddy Solution File, Format Version 12.00
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Philippines", "CIVITAS Philippines\CIVITAS Philippines.civ6proj", "{90FEDF69-0A28-4D57-930C-01BFF4C20220}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Lapu-Lapu", "CIVITAS Lapu-Lapu\CIVITAS Lapu-Lapu.civ6proj", "{709A9974-7884-4A26-9AA7-F2D6BE3CC790}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Kudarat", "CIVITAS Kudarat\CIVITAS Kudarat.civ6proj", "{FD70AA68-AFEB-4F81-8FC4-1C77330D0A77}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Kalangitan", "CIVITAS Kalangitan\CIVITAS Kalangitan.civ6proj", "{E47B706E-BF42-415C-92C7-B517462F91F6}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Jose Rizal", "CIVITAS Jose RIzal\CIVITAS Jose Rizal.civ6proj", "{0A4EC7DA-CDE3-4112-9C5A-F399EF726132}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Corazon Aquino", "CIVITAS Corazon Aquino\CIVITAS Corazon Aquino.civ6proj", "{D4EAF31E-27FA-46A3-AE94-54BC4ED7D790}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90FEDF69-0A28-4D57-930C-01BFF4C20220}.Default|Civ6.ActiveCfg = Default|Civ6
+		{90FEDF69-0A28-4D57-930C-01BFF4C20220}.Default|Civ6.Build.0 = Default|Civ6
+		{709A9974-7884-4A26-9AA7-F2D6BE3CC790}.Default|Civ6.ActiveCfg = Default|Civ6
+		{709A9974-7884-4A26-9AA7-F2D6BE3CC790}.Default|Civ6.Build.0 = Default|Civ6
+		{FD70AA68-AFEB-4F81-8FC4-1C77330D0A77}.Default|Civ6.ActiveCfg = Default|Civ6
+		{FD70AA68-AFEB-4F81-8FC4-1C77330D0A77}.Default|Civ6.Build.0 = Default|Civ6
+		{E47B706E-BF42-415C-92C7-B517462F91F6}.Default|Civ6.ActiveCfg = Default|Civ6
+		{E47B706E-BF42-415C-92C7-B517462F91F6}.Default|Civ6.Build.0 = Default|Civ6
+		{0A4EC7DA-CDE3-4112-9C5A-F399EF726132}.Default|Civ6.ActiveCfg = Default|Civ6
+		{0A4EC7DA-CDE3-4112-9C5A-F399EF726132}.Default|Civ6.Build.0 = Default|Civ6
+		{D4EAF31E-27FA-46A3-AE94-54BC4ED7D790}.Default|Civ6.ActiveCfg = Default|Civ6
+		{D4EAF31E-27FA-46A3-AE94-54BC4ED7D790}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>CIVITAS [ICON_GREATPERSON] Kalangitan</Name>
+    <Guid>0139cdac-76d0-4ff9-b78e-77914cac0344</Guid>
+    <ProjectGuid>e47b706e-bf42-415c-92c7-b517462f91f6</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds Kalangitan as a leader for CIVITAS Philippines</Teaser>
+    <Description>Adds Kalangitan as a leader for CIVITAS [ICON_GOVERNMENT] Philippines</Description>
+    <Authors>SeelingCat, ChimpanG</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <ModProperties>
+      <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    </ModProperties>
+    <AssemblyName>CPG Philippines Kalangitan</AssemblyName>
+    <RootNamespace>CPG Philippines Kalangitan</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Mod" title="CIVITAS [ICON_Government] Philippines" id="46a14591-6338-4567-ad3e-8c18f135ca09" />
+</Associations>]]></AssociationData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Kalangitan_Setup_DB"><Properties><LoadOrder>105</LoadOrder></Properties><File>Core/Kalangitan_Config.sql</File></UpdateDatabase><UpdateText id="Kalangitan_Setup_Text"><File>Core/Kalangitan_Localisation.sql</File></UpdateText><UpdateIcons id="Kalangitan_Setup_Icons"><File>Core/Kalangitan_Icons.sql</File></UpdateIcons><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="Kalangitan_Setup_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Kalangitan_Colors.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Kalangitan_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Kalangitan_Leader.sql</File><File>Core/Kalangitan_UA.sql</File><File>Core/Kalangitan_UI.sql</File><File>Core/Kalangitan_Agenda.sql</File><File>Core/Kalangitan_Strategy.sql</File><File>Core/Kalangitan_ModSupport.sql</File></UpdateDatabase><UpdateText id="Kalangitan_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Kalangitan_Localisation.sql</File></UpdateText><UpdateIcons id="Kalangitan_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Kalangitan_Icons.sql</File></UpdateIcons><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Kalangitan_XP1"><Properties><LoadOrder>115</LoadOrder></Properties><Criteria>XP1</Criteria><File>Core/Kalangitan_XP1.sql</File></UpdateDatabase><UpdateColors id="Kalangitan_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Kalangitan_Colors.sql</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="XP1" any="1"><GameCoreInUse>Expansion1,Expansion2</GameCoreInUse></Criteria><Criteria id="XP2"><GameModeInUse><GameCoreInUse>Expansion2</GameCoreInUse></GameModeInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Core\Kalangitan_Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Kalangitan_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Kalangitan_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Kalangitan_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Kalangitan_Leader.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Kalangitan_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Kalangitan_ModSupport.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Kalangitan_Strategy.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Kalangitan_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Kalangitan_UI.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Kalangitan_XP1.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

@@ -1,0 +1,12 @@
+Starting AssetCooker...
+OPENCL ACCELERATION IS NOT AVAILABLE!  Your cooks will be SLOOOOWWW!  Please inform an engineer.
+XLP cook starting...
+\\WDMYCLOUD\Sam\Projects\Modding\Civ VI\Mods\CIVITAS-Philippines\CIVITAS Philippines\CIVITAS Philippines - Kudarat\XLPs\Tilebases.xlp
+Opened output file: C:\Users\Sam\Documents\My Games\Sid Meier's Civilization VI\Mods\CIVITAS Philippines - Kudarat\Platforms\MacOS\BLPs/landmarks/tilebases.blp    For XLP: '\\WDMYCLOUD\Sam\Projects\Modding\Civ VI\Mods\CIVITAS-Philippines\CIVITAS Philippines\CIVITAS Philippines - Kudarat\XLPs\Tilebases.xlp'
+Starting 'landmarks/tilebases'
+Load finished for: 'landmarks/tilebases' in 0.070 seconds
+Cook finished for: 'landmarks/tilebases' in 0.002 seconds
+Disk write finished for: 'landmarks/tilebases' in 0.014 seconds
+Cleanup finished for: 'landmarks/tilebases' in 0.007 seconds
+XLP cook completed with success.
+Cook completed in 0.123 seconds

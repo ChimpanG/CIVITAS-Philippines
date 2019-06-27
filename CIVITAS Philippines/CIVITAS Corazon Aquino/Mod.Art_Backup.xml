@@ -570,6 +570,7 @@
 			<libraryName text="UITexture"/>
 			<relativePackagePaths>
 				<Element text="UI/Icons"/>
+				<Element text="UILeaders"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

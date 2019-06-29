@@ -1,6 +1,6 @@
 /*
 	Localisation
-	Authors: ChimpanG
+	Authors: SailorCat
 */
 
 -----------------------------------------------
@@ -16,6 +16,7 @@ VALUES
 -----------------------------------------------	
 	
 	("LOC_LEADER_CVS_KUDARAT_NAME",  "en_US",	"Kudarat"	),
+	("LOC_CITY_NAME_COTABATO",		"en_US",	"Cotabato"	),
 	
 -----------------------------------------------
 -- UA
@@ -23,15 +24,7 @@ VALUES
 
 	("LOC_TRAIT_LEADER_CVS_KUDARAT_UA_NAME",  "en_US",	"Helper of the Faith"	),
 	("LOC_TRAIT_LEADER_CVS_KUDARAT_UA_DESCRIPTION",	"en_US",	
-	"May purchase [ICON_RELIGION] Religious Units for half the amount of [ICON_FAITH] Faith, and Walls are constructed in half the usual time. Gains access to the Kota unique district."),
-
------------------------------------------------
--- UI
------------------------------------------------
-
-	("LOC_DISTRICT_CVS_KUDARAT_UI_NAME",	"en_US",	"Kota"	),
-	("LOC_DISTRICT_CVS_KUDARAT_UI_DESCRIPTION",	"en_US",	  
-	"An Aqueduct replacement unique to Philippines. Provides +4 [ICON_Housing] Housing, and acquires Walls when they are constructed in the City Center, alongside a minor [ICON_Ranged] Ranged Attack. Receives +2 [ICON_FAITH] Faith for each level of Walls. May not be built adjacent to the City Center and must be constructed on Hills."),
+	"Each level of Walls produces +0.5 [ICON_FAITH] Faith per [ICON_CITIZEN] Population and are constructed 50% faster. Gain [ICON_FAITH] Faith equal to 20% of the unit's cost when a non-civilian unit is created in a walled city. May purchase Traders with [ICON_FAITH] Faith."	),
 
 -----------------------------------------------
 -- Agenda
@@ -56,150 +49,150 @@ VALUES
 
 -- DOM
 	("LOC_LOADING_INFO_LEADER_CVS_KUDARAT",  "en_US",	
-	"Wise and illustrious King Tiglath-Pileser III. Your legendary reputation as a scholar is matched only by your ferocity in conquest. And yet, your legend represents merely a glimmer of your true ambition. Ensure that your thirst for knowledge does not go unquenched, seize lands as far as the horizon, and rest assured the world shall be yours."  	),
+	"Brace yourself, Sultan Muhammad Dipatuan Kudarat, for faith and fatherland are only as enduring as those who rise in their defense. If you are to preserve that which you hold dear, your resolve must be indefatigable, your piety unwavering. Stand fast against all invaders so that the flower of your people's faith may bloom in this island paradise."  	),
 	
 -- FIRST MEET
 	-- First AI Line
 	("LOC_DIPLO_FIRST_MEET_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"Let it be known that I will not hesitate to cut down an enemy where they stand, but those that conduct themselves with grace and civility may consider themselves friends of Assyria." ),
+	"These sacred lands enjoy the protection of Sultan Muhammad Dipatuan Kudarat. May God guide you, and may your grin gleam as brightly as the sea."),
 	
 	-- AI invitation to visit nearby City
 	("LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"I wish to welcome you to the great kingdom of Assyria. Come, visit our libraries. A world of knowledge at your fingertips."	),
+	"Here, you should chart a course for our nearest city. All of Mindanao is a pearl formed in the bosom of faith."),
 	
 	-- AI accepts human invitation
 	("LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"I would be honored."	),
+	"It would be my pleasure."	),
 	
 	-- AI invitation to exchange Capital Information
 	("LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"Prosperity begins with education. Come, let us exchange information on our Capitals so that we may learn more about one another."	),
+	"Cotabato is the heart of the Sultanate. From there, our tenets are manifest. Would you kindly direct us to your capital?"),
 
 -- GREETINGS	
 	("LOC_DIPLO_GREETING_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"Welcome."	),
+	"Hail."	),
 	
 -- DELEGATION
 	-- AI Accepts
 	("LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"Your delegation arrived, and we are humbled by your generosity."	),
+	"By all means."	),
 	
 	-- AI Rejects
 	("LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"I'm afraid not."	),
+	"I must decline."	),
 	
 	-- AI Requests
 	("LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"Will you receive our diplomatic delegation in your capital?"	),
+	"Our delegation wishes to share with you a taste of the Philippines. I recommend the turon."),
 	
 -- OPEN BORDERS
 	-- AI accepts from human	
 	("LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CVS_KUDARAT_ANY",	"en_US",	                                     
-	"Very well."	),
+	"Proceed, but with deference."	),
 	
 	-- AI rejects from human	
 	("LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CVS_KUDARAT_ANY",  "en_US",	                                   
-	"You must have mistaken me for a fool. The answer is no."	),
+	"And invite your coreligionists to corrupt the faithful? I think not."	),
 	
 	-- AI requests from human	
 	("LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CVS_KUDARAT_ANY",      "en_US",	                                
-	"Will you do me the honor of allowing my soldiers free passage through your territory?"	),
+	"Would you give my people leave to enter your lands?"),
 	
 -- DECLARE FRIENDSHIP
 
 	-- AI accepts from human	
 	("LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CVS_KUDARAT_ANY",   "en_US",	                                   
-	"It would be my honor."	),
+	"Ours will be a friendship cast in stone."),
 	
 	-- AI rejects from human	
 	("LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CVS_KUDARAT_ANY",   "en_US",	                                   
-	"I'm afraid not, for a man is known by the company he keeps."	),
+	"I do not extend my hand so blithely, or to just anyone."),
 	
 	-- AI Requests friendship from human	
 	("LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CVS_KUDARAT_ANY",     "en_US",	                                 
-	"It would appear that our intellectual pursuits are in alignment. I extend my hand in friendship."	),
+	"Let us buoy one another in friendship. We could be as happy as a clam at high tide."	),
 	
 	-- Human accepts AI requests, AI responds	
 	("LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CVS_KUDARAT_ANY",   "en_US",	                                   
-	"Splendid."	),
+	"Wonderful."	),
 	
 	-- Human rejects AI requests, AI responds	
 	("LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CVS_KUDARAT_ANY",   "en_US",	                                   
-	"I think you will come to regret this decision. Most unwise."	),
+	"What a shame."	),
 
 -- ALLIANCE
 
 	-- AI Requests an alliance from human
 	("LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"Partnerships produce stability in a world where there is little. Let us guarantee our good fortune by forming an alliance."	),
+	"It is not worth doing something unless you were doing something that someone, somewhere, would much rather you weren't doing. Many would wish we had not allied."	),
 
 -- KUDOS & WARNINGS
 	
 	-- AI Kudos
 	("LOC_DIPLO_KUDO_EXIT_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"He who is learned believes only half of what he hears, but only the wisest of men know which half. It would appear that we find each other in good company."	),
+	"Our rows pale before the brotherhood to be found in mutual religion. May your faith protect you."	),
 	
 	-- AI Warnings
 	("LOC_DIPLO_WARNING_EXIT_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"It is easier to snatch possessions as thieves than it is to work for them. It is easier to seize land from another than it is to toil it yourself. And it is easier to lay waste to a city than it is to rebuild it. You'd be wise to remember this."	),
+	"Watch where your missionaries tread, or they are bound to step on a snake."),
 	
 	-- AI warns player for border troops
 	("LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"Education is a better safeguard of prosperity than a standing army, but it doesn't hurt to have both. I'd suggest you move your troops."	),
+	"Remove your military, else they will suffer this wisdom: Give a man a fire and he is warm for a day. Catch a man on fire and he is warm for the rest of his life."	),
 
 -- TRADE
 	
 	-- AI Accepts Deal
 	("LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"Very well."	),
+	"Satisfactory."	),
 
 	-- AI Rejects Deal
 	("LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"Don't waste my time."	),
+	"Hardly."	),
 
 -- DENOUNCE
 	
 	-- From Human
 	("LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"Before god we are equally wise... and equally foolish."	),
+	"You have trespassed upon all that is good and holy. Your comeuppance will befit a godless wretch such as yourself."	),
 	
 	-- From AI
 	("LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"Poor is the pupil that does not surpass his mentor. (Denounces You)"	),
+	"You are a dark-blooded heathen whose comeuppance is imminent. (Denounces You)"	),
 	
 -- DOW
 	
 	-- Human Declares War
 	("LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"Let them come."	),
+	"Your ill-fated waves will do as they are wont to do: break."	),
 	
 	-- AI Declares War
 	("LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"Wars are won by those who are willing to do what the other is not. Let's see how far you'll fall from grace to save your pathetic kingdom."	),
+	"Enough is enough. All the strength of my Sultanate, I promise you, shall become a typhoon against you."	),
 	
 -- MAKE PEACE
 	
 	-- AI accepts from human
 	("LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"Fine."	),
+	"A wise decision."	),
 	
 	-- AI refuses human
 	("LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"You plead for mercy? From me? Forgiveness is between you and the gods. You'll meet them before I'm done here."	),
+	"The time for clemency has long passed; now, there can be only retribution."	),
 	
 	-- AI requests from human
 	("LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"No man is ever wise by chance. The time has come to lay down our arms."	),
+	"Peace, not surrender. It is the difference between using a quill and using a sword."	),
 
 -- DEFEAT
 	
 	-- AI is Defeated
 	("LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"And so it is by your hand that I meet my end. I regret nothing, for it was always better to fight for something than live for nothing. Go ahead, finish this."	),
+	"Time and tide wait for no man, and so the sun finally sets on my watch. May those who assume my mantle never tire."	),
 
 	-- Human is Defeated (will see this in hotseat)
 	("LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_CVS_KUDARAT_ANY",	"en_US",	
-	"And so it is by your hand that I meet my end. I regret nothing, for it was always better to fight for something than live for nothing. Go ahead, finish this."	),	
+	"Time and tide wait for no man, and so the sun finally sets on my watch. May those who assume my mantle never tire."	),	
 
 --------------------------------------------------------------------
 -- Quote and Pedia
@@ -215,26 +208,31 @@ VALUES
 	"Sultan of Maguindanao"),
 	
 	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_CAPSULE_BODY",	"en_US",	
-	"Placeholder"),
+	"Kudarat excels at hunkering behind religion and defensive measures."),
+
 	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_DETAILED_BODY",	"en_US",	
-	"Placeholder"),
+	"Focus on obtaining a religion, and once you have, the world is your oyster. Construct walls, Kutas, and Encampments within your borders to defend against invaders both religious and military. Use your superior defenses as a rallying point from which to spread your religion."),
 	
 	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_HISTORY_PARA_1",	"en_US",	
-	"Placeholder"),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_HISTORY_PARA_2",	"en_US",	
-	"Placeholder"),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_HISTORY_PARA_3",	"en_US",	
-	"Placeholder"),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_HISTORY_PARA_4",	"en_US",	
-	"Placeholder"),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_HISTORY_PARA_5",	"en_US",	
-	"Placeholder"),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_HISTORY_PARA_6",	"en_US",	
-	"Placeholder"),
-	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_HISTORY_PARA_7",	"en_US",	
-	"Placeholder"),
+	"Sultan Dipatuan Kudarat ruled as the seventh Sultan of Maguindanao, and an adherent of Islam. His legacy is one rooted in a steadfast defense of his religion and his territory."),
 
-	("LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_CVS_KUDARAT_UI_CHAPTER_HISTORY_PARA_1",	"en_US",
-	"With the arrival of Indianized and Muslim scholars from nearby Indonesia, the native Filipinos were introduced to the concept of the kota or the fort. The Muslim Filipinos of the south built strong fortresses called kota or moong to protect their communities. Usually, entire families occupies the kotas, rather than just warriors. The kota served not only as a military installation, but also as a palace for the local lord, who often had their own kotas to assert their right to rule. It is said that at the height of the Maguindanao Sultanate's power, they blanketed the areas around Western Mindanao with kotas and other types of fortifications to block the Spanish advance into the region."),
-	("LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_CVS_KUDARAT_UI_CHAPTER_HISTORY_PARA_2",	"en_US",
-	"The kota were usually made of stone and bamboo, or other light materials, and surrounded by trench networks. As a result, some of these kotas were burned easily or destroyed. With further Spanish campaigns in the region, the Sultanate was subdued and majority of kota were dismantled or destroyed. Kota were used by the Muslims as defense against Spaniards and other foreigners, and also saw use by renegades and rebels who built fortifications in defiance of other chiefs in the area. During the American occupation, rebels built strongholds and the datus, rajahs or sultans often built and reinforced their kotas in a desperate bid to maintain rule over their subjects and their land. Many of these forts were destroyed by American expeditions, and as a result, very few kota still stand to this day.");
+	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_HISTORY_PARA_2",	"en_US",	
+	"His reign was marked by conflicts with the Spaniards and regular antgonizing by missionaries, though it began with a contest with the neighboring Buayan Sultanate. Despite setbacks, he held his own. Soon thereafter, his ruthlessness was made plain: when one of his allies was brought low, he proceeded to wreak havoc on the force that did the ally in, and in so doing secure the Saragani territory."),
+
+	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_HISTORY_PARA_3",	"en_US",	
+	"Kudarat turned away Dutch offers of an alliance against the Spaniards, but would find his hand forced all the same. When the Spaniards sought to gather filipinos into settlements modeled after those in Spain, and centered around Catholicism no less, he roused them into a fierce resistance. Kudarat would not stop there; he set his forces upon these settlements."),
+
+	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_HISTORY_PARA_4",	"en_US",	
+	"His reprisal stirred the Spaniards into action. A serious expedition into Mindanao, meant to kill him and convert his people, struck deep. So deep, in fact, that his capital in Lamitan would fall soon thereafter. Kudarat's resolve had not weakened, however. He retreated with his men to fortifications where he could dig in. Though his defense was tenacious, his kutas were not enough to hold back the Spaniards forever. Having suffered a wound in combat, he was forced to further retreat in order to recover."),
+
+	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_HISTORY_PARA_5",	"en_US",	
+	"Kudarat would not be extinguished so summarily. Before long, he raised an army to harass the Spaniards who were busy dealing with his earlier rival, the Buayan Sultanate. With Kudarat's help, a Spanish incursion into Maranaos was repelled, and left history a rousing speech by the Sultan."),
+
+	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_HISTORY_PARA_6",	"en_US",	
+	"With a united front, Kudarat and his allies were able to leave the Spaniards no other option but to withdraw. The peace that followed was turbulent and transitory, but it secured further power for Kudarat. He became more of a force to be reckoned with."),
+
+	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_HISTORY_PARA_7",	"en_US",	
+	"When peace began to falter, it was mainly on religious grounds. Regular disagreements between the Muslim filipinos and Catholic missionaries eventually reached a breaking point, and an ambassador was killed. Seeking to preempt retaliation by the Spaniards, Kudarat summoned his allies for Jihad. The Spaniards were driven from the land, along with their Catholic brethren."),
+
+	("LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_KUDARAT_CHAPTER_HISTORY_PARA_8",	"en_US",	
+	"After ruling for over fifty years, Kudarat died of old age, a devoted Muslim and champion of his people.");

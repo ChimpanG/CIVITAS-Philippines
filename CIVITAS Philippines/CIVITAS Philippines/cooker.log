@@ -5,9 +5,9 @@ XLP cook starting...
 Opened output file: D:\Documents\my games\Sid Meier's Civilization VI\Mods\Mods\CIVITAS Philippines\Platforms\MacOS\BLPs/UI/LensAssets.blp    For XLP: '\\WDMYCLOUD\Sam\Projects\Modding\Civ VI\IdeaProjects\GitHub\CIVITAS-Philippines\CIVITAS Philippines\CIVITAS Philippines\XLPs\LensAssets.xlp'
 Could not load digest key: ''.  Using mod key to sign BLP.
 Starting 'UI/LensAssets'
-Load finished for: 'UI/LensAssets' in 0.065 seconds
+Load finished for: 'UI/LensAssets' in 0.081 seconds
 Cook finished for: 'UI/LensAssets' in 0.001 seconds
-Disk write finished for: 'UI/LensAssets' in 0.100 seconds
+Disk write finished for: 'UI/LensAssets' in 0.080 seconds
 Cleanup finished for: 'UI/LensAssets' in 0.000 seconds
 XLP cook completed with success.
-Cook completed in 0.220 seconds
+Cook completed in 0.194 seconds

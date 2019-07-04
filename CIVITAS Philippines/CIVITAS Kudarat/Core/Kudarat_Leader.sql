@@ -43,4 +43,10 @@ INSERT INTO	LoadingInfo
 		(LeaderType,			ForegroundImage,				BackgroundImage,					PlayDawnOfManAudio	)
 VALUES	('LEADER_CVS_KUDARAT',	'LEADER_CVS_KUDARAT_NEUTRAL',	'LEADER_CVS_KUDARAT_BACKGROUND',	0					);
 
-		
+-----------------------------------------------
+-- FavoredReligions
+-----------------------------------------------
+
+INSERT INTO FavoredReligions
+		(LeaderType,				ReligionType		)
+VALUES	('LEADER_CVS_KALANGITAN',	'RELIGION_ISLAM'	);

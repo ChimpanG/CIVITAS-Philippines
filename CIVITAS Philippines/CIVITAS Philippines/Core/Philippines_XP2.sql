@@ -50,11 +50,11 @@ VALUES	('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_RIVER_PASIG_RIVER'		),
 		('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_RIVER_PAMPANGA_RIVER'	);
 
 -----------------------------------------------
--- NamedOceanCivilizations
+-- NamedSeaCivilizations
 -----------------------------------------------
 
-INSERT INTO NamedOceanCivilizations
-		(CivilizationType,					NamedOceanType				)
+INSERT INTO NamedSeaCivilizations
+		(CivilizationType,					NamedSeaType				)
 VALUES	('CIVILIZATION_CVS_PHILIPPINES',	'NAMED_OCEAN_PACIFIC_OCEAN'	);
 
 -----------------------------------------------
